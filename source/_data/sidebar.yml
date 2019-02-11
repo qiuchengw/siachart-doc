@@ -1,0 +1,52 @@
+docs:
+  getting_started:
+    chart_overview: index.html
+    series_types: series-types.html
+    example: example.html
+  chart_usage:
+    builtin_funcs: builtin-func.html
+    datasource: datasource.html
+    panel_series: panel-series.html
+    precision: precision.html
+    add_object: add-object.html
+    crosshair: crosshair.html
+    zoom_view: zoom-view.html
+    use_tooltip: use-tooltip.html
+    use_dict: use-dict.html
+  style_chart:
+    style_luasyntax: style-luasyntax.html
+    style_luaconfig: style-luaconfig.html
+    style_series: style-series.html
+    
+  formula:
+    formula_builtin: formula-builtin.html
+    formula_dev: formula-dev.html
+  object:
+    object_overview: object-overview.html
+    object_position: object-position.html
+    object_text: object-text.html
+    object_picture: object-picture.html
+    object_movie: object-movie.html
+    object_custom: object-custom.html
+
+api:
+  core:
+    overview: index.html
+    events: events.html
+    locals: locals.html
+    router: router.html
+    box: box.html
+    rendering: rendering.html
+    posts: posts.html
+    scaffolds: scaffolds.html
+    themes: themes.html
+  extensions:
+    console: console.html
+    deployer: deployer.html
+    filter: filter.html
+    generator: generator.html
+    helper: helper.html
+    migrator: migrator.html
+    processor: processor.html
+    renderer: renderer.html
+    tag: tag.html
