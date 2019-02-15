@@ -5,8 +5,6 @@
       <span id="banner-start-command">源码</span><a id="banner-start-link" href="https://github.com/qiuchengw/siachart"><i class="fa fa-arrow-right"></i></a>
       <span style="margin-left:20px;"></span>
       <span id="banner-start-command">文档</span><a id="banner-start-link" href="docs/"><i class="fa fa-arrow-right"></i></a>
-      <span style="margin-left:20px;"></span>
-      <span id="banner-start-command">博客</span><a id="banner-start-link" href="https://piaode.ren"><i class="fa fa-arrow-right"></i></a>
     </div>
   </div>
 
