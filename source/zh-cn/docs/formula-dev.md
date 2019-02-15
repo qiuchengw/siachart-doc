@@ -1,22 +1,27 @@
-title: 建站
+title: 公式开发
 ---
 
-图表提供了公式开发的环境，您可以方便的实现自己的公式。
+公式是一组抽象的流程标准化的算法，可以独立于图表而存在。公式的开发可以分为以下几个标准的流程：
+1. 实现`formula::IFormula`接口类
+2. 注册到公式管理器`formula::FormulaMan`
+3. 使用`formula::FormulaMan::create`创建公式实例。
+4. 使用公式实例。
 
 ## 公式管理器
 
+`FormulaMan`用于管理公式的注册/查询/创建/销毁等。
 
 ```cpp
-/*!
- * \class FormulaMan
- *
- * \brief 管理系统中已注册的公式
- *
- */
 class FORMULA_API FormulaMan{...}
 ```
 
-## 开发一个公式
+## 公式接口类
+
+`SiaChart`中的所有公式都必须实现`IFormula`虚拟接口类：
+
+```cpp
+class FORMULA_API IFormula
+```
 
 ## 注册新的公式到管理器
 
